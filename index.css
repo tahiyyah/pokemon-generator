@@ -53,3 +53,14 @@ body {
     align-items: center;
     padding-left: -100px;
 }
+
+@media only screen and (max-width: 768px){
+    .container {
+        display: block;
+    }
+
+    .sprite {
+        width: 70%;
+        padding-left: 70px;
+    }
+}
