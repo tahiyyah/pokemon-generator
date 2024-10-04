@@ -39,7 +39,7 @@ body {
 }
 
 .sprite {
-    width: 30%;
+    width: 40%;
 }
 
 .info {
@@ -61,6 +61,7 @@ body {
 
     .sprite {
         width: 70%;
-        padding-left: 70px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
