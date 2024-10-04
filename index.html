@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>pokemon generator</title>
+</head>
+<body>
+
+    <h1 class="heading">pokemon generator</h1>
+
+    <section class="input">
+        <input type="text" id="pokemonName" class="inputBox" placeholder="enter pokemon name">
+        <button onclick="fetchData()" class="fetchBtn" id="enter"><i class="fa-solid fa-check"></i></button><br>
+    </section>
+
+    <section class="container">
+        <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none" class="sprite">
+        <section class="info">
+            <p id="id" style="display: none"></p>
+            <p id="type" style="display: none;"></p>
+            <p id="base-xp" style="display: none;"></p>
+            <p id="ability" style="display: none;"></p>
+            <p id="move" style="display: none;"></p>
+            <p id="weight" style="display: none;"></p>
+        </section>
+    </section>
+
+</body>
+<script src="index.js"></script>
+</html>
